@@ -74,12 +74,14 @@ button {
 #yesBtn {
   background: #28a745;
   color: white;
+  border: none;
+  position: relative;
 }
 
 #noBtn {
   background: #dc3545;
   color: white;
-  position: absolute;
+  position: relative;
 }
 
 .surprise-img {

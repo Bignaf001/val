@@ -23,7 +23,7 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.left = x + "px";
   noBtn.style.top = y + "px";
 
-  speed += 50; // makes it harder every time 😈
+  speed += 70; // makes it harder every time 😈
 });
 
 // YES clicked
@@ -33,7 +33,7 @@ yesBtn.addEventListener("click", () => {
   surprise.classList.remove("hidden");
 
   // WhatsApp share link
-  const message = "I just said YES to being your Valentine 💖🥰";
+  const message = "I just said YES to being the love of your life forever 💖🥰";
   share.href = `https://wa.me/?text=${encodeURIComponent(message)}`;
 });
 document.getElementById("introVideo").muted = false;
