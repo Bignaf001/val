@@ -37,3 +37,4 @@ yesBtn.addEventListener("click", () => {
   share.href = `https://wa.me/?text=${encodeURIComponent(message)}`;
 });
 document.getElementById("introVideo").muted = false;
+alert("JS Loaded");
